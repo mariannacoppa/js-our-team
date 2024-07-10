@@ -1,3 +1,10 @@
+// mostro a video la struttura dati
+const user_container = document.getElementById('card');
+function createCard() {
+    let card = document.createElement('div');
+    return card;
+}
+// creo array di objects
 const users = [
     {
         name: 'Wayne Barnett',
@@ -30,9 +37,14 @@ const users = [
         img: 'barbara-ramos-graphic-designer.jpg'
     }
 ];
+// stampo in console.log le proprietà di ciasun object
 console.log(users[0]);
 console.log(users[1]);
 console.log(users[2]);
 console.log(users[3]);
 console.log(users[4]);
 console.log(users[5]);
+// creo codice html per contenere le proprietà di ciascun utente
+card.innerHTML = `<h2 id="name">${users[i].name}</h2>
+        <p id="role">${users[i].role}</p>
+        <img src="./img/${users[i].img}" alt="" id="img">`
