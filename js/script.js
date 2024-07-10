@@ -30,3 +30,9 @@ const users = [
         img: 'barbara-ramos-graphic-designer.jpg'
     }
 ];
+console.log(users[0]);
+console.log(users[1]);
+console.log(users[2]);
+console.log(users[3]);
+console.log(users[4]);
+console.log(users[5]);
