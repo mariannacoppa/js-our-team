@@ -1,5 +1,6 @@
 // mostro a video la struttura dati
-const user_container = document.getElementById('card');
+// const user_container = document.getElementById('card');
+const card_list_container = document.getElementById('card-list');
 function createCard() {
     let card = document.createElement('div');
     return card;
@@ -45,13 +46,13 @@ console.log(users[3]);
 console.log(users[4]);
 console.log(users[5]);
 // ciclo l'array
-for (let i = 0; i < users.length; i++) {
+for (let i = 0; i <= users.length; i++) {
     const card = createCard();
     // creo codice html per contenere le proprietà di ciascun utente
     card.innerHTML = `<h2 id="name">${users[i].name}</h2>
             <p id="role">${users[i].role}</p>
             <img src="./img/${users[i].img}" alt="" id="img">`
-    user_container.innerHTML = `${users[i].name} ${users[i].role} ${users[i].img}`;
+    // card_list_container.innerHTML = `${users[i].name} ${users[i].role} ${users[i].img}`;
     // appendo la card al tag html nel dom
-    user_container.append(card);
+    card_list_container.append(card);
 }
