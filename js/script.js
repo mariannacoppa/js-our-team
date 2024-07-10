@@ -52,4 +52,6 @@ for (let i = 0; i < users.length; i++) {
             <p id="role">${users[i].role}</p>
             <img src="./img/${users[i].img}" alt="" id="img">`
     user_container.innerHTML = `${users[i].name} ${users[i].role} ${users[i].img}`;
+    // appendo la card al tag html nel dom
+    user_container.append(card);
 }
