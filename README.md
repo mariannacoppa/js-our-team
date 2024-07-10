@@ -16,3 +16,12 @@ Walter Gordon - Office Manager - walter-gordon-office-manager.jpg
 Angela Lopez	- Social Media Manager - angela-lopez-social-media-manager.jpg
 Scott Estrada	- Developer - scott-estrada-developer.jpg
 Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
+
+Pseudocodice
+
+1 Creo array di oggetti in cui inserisco: 
+chiavi: nome, ruolo e foto
+e i relativi valori.
+2 creo un console.log per ogni membro del team, con il quale mostro i valori di ciascuno
+3 creo elementi html a cui appendere le proprietà di ciascun membro del team
+4 appendo le informazioni nel dom come stringhe
