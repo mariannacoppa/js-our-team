@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1 {
+    text-align: center;
+}
+#card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

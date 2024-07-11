@@ -49,7 +49,7 @@ console.log(users[5]);
 for (let i = 0; i <= users.length; i++) {
     const card = createCard();
     // creo codice html per contenere le proprietà di ciascun utente
-    card.innerHTML = `<h2 id="name">${users[i].name}</h2>
+    card.innerHTML = `<h2 id="name" class="mt-5">${users[i].name}</h2>
             <p id="role">${users[i].role}</p>
             <img src="./img/${users[i].img}" alt="" id="img">`
     // card_list_container.innerHTML = `${users[i].name} ${users[i].role} ${users[i].img}`;
