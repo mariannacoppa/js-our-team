@@ -38,15 +38,10 @@ const users = [
         img: 'barbara-ramos-graphic-designer.jpg'
     }
 ];
-// stampo in console.log le proprietà di ciasun object
-console.log(users[0]);
-console.log(users[1]);
-console.log(users[2]);
-console.log(users[3]);
-console.log(users[4]);
-console.log(users[5]);
 // ciclo l'array
 for (let i = 0; i <= users.length; i++) {
+    // stampo in console.log le proprietà di ciasun object
+    console.log(`${users[i].name} ${users[i].role} ${users[i].img}`);
     const card = createCard();
     // creo codice html per contenere le proprietà di ciascun utente
     card.innerHTML = `<h2 id="name" class="mt-5">${users[i].name}</h2>
